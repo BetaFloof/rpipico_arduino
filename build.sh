@@ -9,4 +9,3 @@ mkdir build
 arduino-cli compile --fqbn arduino:mbed_rp2040:pico --output-dir ./build .
 mv ./build/*.ino.uf2 .
 rm -rf ./build
-echo "Done"
